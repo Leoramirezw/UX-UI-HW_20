@@ -20,8 +20,20 @@
     .img-fluid {
       margin-left: 20px;
     }
-    .videoLow{
+   /* .videoLow{
       margin-left: auto;
       margin-right: auto;
       display: block;
+    }*/
+
+    .videoLow{
+      margin-top: 15px;
+      margin-left: 12% ;
+      margin-bottom: 15px;
     }
+     .video {
+       background-color: #004D79;
+       margin-left: 20px;
+       margin-right: 20px;
+  
+     }
