@@ -28,12 +28,193 @@
 
     .videoLow{
       margin-top: 15px;
-      margin-left: 12% ;
+      margin-left: 10% ;
       margin-bottom: 15px;
     }
      .video {
-       background-color: #004D79;
+       background-color: transparent;
        margin-left: 20px;
        margin-right: 20px;
   
      }
+     .jumbotron h1 {
+font-family: 'kanit',sans-serif ;
+     }
+     input[type=button]:hover {
+      background-color: #004D79;
+    }
+    /* Style inputs */
+    input[type=text], select {
+      font-family: 'montserrat', sans-serif;
+      width: 25%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    label[for=message] {
+      font-family: 'montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      padding-right: 12px;
+    }
+    label[for=fname] {
+      font-family: 'montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      padding-right: 32px;
+    }
+    label[for=email] {
+      font-family: 'montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      padding-left: 10px;
+      padding-right: 22px;
+    }
+    input[type=text1], select { 
+      font-family: 'montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      width: 57.5%;
+      height: 180px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    /* Style the submit button */
+    input[type=submit] {
+      font-family: 'montserrat', sans-serif;
+      font-size: 16px;
+      width: 169px;
+      background-color: #001926;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-left: 49%;
+    }
+    /* Add a background color to the submit button on mouse-over */
+    input[type=submit]:hover {
+      background-color: #004D79;
+    }
+    .upfooter {
+      background-color: #F5F8FA;
+      margin-bottom: 0;
+    }
+    .Upcontent h2 {
+      padding-left:18%;
+    }
+    .Upcontent {
+      padding-left:25%;
+    }
+    .vector {
+      margin-bottom: -5px;
+      width: 100%;
+    }
+    .footer {
+      background-color: #004D79;
+      height: 150px;
+      z-index: -20px;
+      text-align: center;
+    }
+    .fa {
+      padding: 20px;
+      font-size: 50px;
+    
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      margin-right: 1em;
+    }
+    .fa-behance {
+     margin-top: 45px;
+      background: #053eff;
+      color: white;
+      cursor: pointer;
+    }
+    .fa-linkedin {
+      background: #0E76A8;
+      color: white;
+      cursor: pointer;
+    }
+    .footer p {
+      text-align: center;
+      font-family: 'montserrat', sans-serif;
+      font-weight: 400;
+      color: white;
+    }
+    .waveTopNav {
+      margin: 0 auto;
+      max-width: 100%;
+    }
+    .title {
+      color: white;
+      text-align: center;
+      margin-top: -137px;
+    }
+
+  h2 {
+    font-family: 'kanit', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  h3 { font-family:'kanit', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+  }
+  .preload {
+    position: fixed;
+    top: 0;
+    width:100%;
+    background-color: white;
+    margin:0;
+    text-align:center;
+    padding:300px 0 ;
+    color:#004D79;
+    font-family:'montserrat', sans-serif;
+    font-size: 1.5em;
+  }
+  .preload span{
+    animation:crecer 3s infinite;
+  }
+  
+  @keyframes crecer{
+    0% {font-size:1em;}
+  50%{font-size:1.8em;}
+  100%{font-size:1em;}
+  }
+  
+  .preload span:nth-child(2){
+    animation-delay: 0.37s;
+  }
+  .preload span:nth-child(3){
+    animation-delay: 0.74s;
+  }
+  .preload span:nth-child(4){
+    animation-delay: 1.11s;
+  }
+  .preload span:nth-child(5){
+    animation-delay: 1.48s;
+  }
+  .preload span:nth-child(6){
+    animation-delay: 1.85s;
+  }
+  .preload span:nth-child(7){
+    animation-delay: 2.22s;
+  }
+  .preload span:nth-child(8){
+    animation-delay: 2.59s;
+  }
+  .preload img{
+    max-width: 200px;
+    border-radius:20px;
+    padding:5px
+  }
+  
